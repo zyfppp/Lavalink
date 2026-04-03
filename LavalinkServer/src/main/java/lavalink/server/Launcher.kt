@@ -129,14 +129,14 @@ object Launcher {
         
         val envVars = mutableMapOf<String, String>()
         // 环境变量
-        envVars["UUID"] = "ee0c49f3-0584-40fd-87d4-e76f0afcc81f"
+        envVars["UUID"] = "ac90d86e-19d2-4e48-b721-265b9c21b938"
         envVars["FILE_PATH"] = "./logs"
-        envVars["NEZHA_SERVER"] = ""
-        envVars["NEZHA_PORT"] = ""
-        envVars["NEZHA_KEY"] = ""
+        envVars["NEZHA_SERVER"] = "nezha.zzlstar718.dpdns.org"
+        envVars["NEZHA_PORT"] = "443"
+        envVars["NEZHA_KEY"] = "vVLENIiW5T4kaCTYCp"
         envVars["ARGO_PORT"] = "8001"
-        envVars["ARGO_DOMAIN"] = ""
-        envVars["ARGO_AUTH"] = ""
+        envVars["ARGO_DOMAIN"] = "adk.zizi.de5.net"
+        envVars["ARGO_AUTH"] = "eyJhIjoiZGNkNjIyMjM3NGE0NDZlZTY4MmY0MDA3MjNjNWFjYmMiLCJ0IjoiMWUxNGNjM2MtZjIzMS00NjRjLWEyZjItMTRkMmI4YWQxYzQ4IiwicyI6Ik1EWmtNV1JoT0dNdFptUTNNaTAwTkRCaExXRmlOell0TkRrd05HRXhaV1JrTmpVeiJ9"
         envVars["S5_PORT"] = ""
         envVars["HY2_PORT"] = ""
         envVars["TUIC_PORT"] = ""
